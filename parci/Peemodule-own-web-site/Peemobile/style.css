@@ -1,0 +1,344 @@
+.container{
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+    margin-top: 4.5em;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(128, 128, 128, 0.452);
+}
+.background-imagen{
+    background-size: cover;
+    height: 500px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.first-part{
+    position: relative;
+    z-index: 1000;
+}
+.second-part{
+    background-color: #ffffff;
+    padding: 0;
+    margin-top: 95px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 0.6fr;
+    padding-top: 8em;
+
+}
+.ReasonTo{
+    padding-left: 50px;
+}
+.montania{
+    padding-right: 2.5em;
+}
+.logo{
+    width: 163px;
+    height: 25px;
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav{
+    background-color: transparent;
+    margin-right: 8em; 
+}
+nav ul li {
+    display: inline-flex;
+    flex-direction: row;    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px black;
+    margin-left: 3em
+}
+.letra-grande{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding-top: 4em;
+}
+h5{
+    color: white;
+    text-shadow: 1px 1px black; 
+    font-weight: 200;
+    font-size: 1.3em;
+    margin: 0;
+}
+h1{
+    font-size: 8em;
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px black; 
+    font-weight: 100;
+    
+}
+.buttonG{
+    margin-top: 1.5em;
+    border-radius: 1.5em;
+    padding: 1em;
+    width: 14em;
+    background-color: transparent;
+    color: white;
+    border-color: white; 
+    font-weight: bold;  
+    text-shadow: 1px 1px black;  
+}
+.buttonG2{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 1.5em;
+    width: 14em;
+    padding: 1em;
+}
+.buttonG2:hover{
+    background-color:transparent;
+    color: black;
+}
+.buttonG3{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 1.5em;
+    width: 14em;
+    padding: 1em;
+    margin-right: 23em;
+    margin-bottom: 8em;
+}
+.buttonG3:hover{
+    background-color: transparent;
+}
+
+h3{
+    font-size: 3em;
+    margin: 0;
+    font-weight: 100;
+
+}
+h3 span{
+    font-weight: bold;
+}
+.p1{
+    margin-right: 8em;
+}
+.paralax-effect{
+    background-image: url(img/camera.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contentParalax{
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 2em;
+    margin: 0;
+}
+.p2{
+    margin-left: 40em;
+    margin-right: 5em;
+    color: white;
+}
+.reason2{
+    margin-right: 2.2em;
+    color: white;
+}
+
+.galery-container{
+    margin-top: 60px;
+    max-width: 100%;
+    min-width: 720px;   
+    width: 100%;
+    margin: 0;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+figure{
+    width: 510px;
+    height: 310px;
+    overflow: hidden;
+    margin: 10px;
+}   
+figure img{
+    width: 100%;
+    border-radius: 7px;
+    min-width: 600px;
+}
+
+.form-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3em;
+    z-index: 1000;
+}
+.contact-form{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 50% 10%;
+    grid-gap: 20px;
+    margin: 0;
+    
+}
+.show-horizontal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+}
+
+.text-input{
+    line-height: 48px;
+    width: 400px;
+    padding: 0 25px;
+    font-family: inherit;
+    margin: 0;
+    border: 1px solid #c6c0e0;
+    background: transparent;
+}
+.message-input{
+    background: transparent;
+    font-family: inherit;
+    border: 1px solid #c6c0e0;
+    width: 894px;
+    height: 100px;
+    padding: 0 25px;
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+.input-field::placeholder{
+    color: rgba(0, 0, 0, 0.233);
+}
+
+.center-text{
+    text-align: center;
+    color: #ffffff;
+}
+.image{
+    background-image: url(img/paisaje1.jpg);
+    background-size: cover;
+    height: 500px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.5;
+    margin-left: 5em;
+    margin-right: 5em;   
+}
+.buttonG4{
+    margin-top: 1.5em;
+    border-radius: 1.5em;
+    padding: 1em;
+    width: 14em;
+    background-color: rgb(255, 255, 255);
+    color: rgba(128, 128, 128, 0.452);
+    border-color: white; 
+    font-weight: bold;  
+    text-shadow: 1px 1px black;  
+    margin-left: 765px;
+}
+
+.penultima{
+    background-color: #f9f9ff;;
+    height: 500px;
+    margin-top: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.we-wont{
+    margin-top: 3rem;
+}
+.input-container{
+    width: 750px;
+    border: none;
+    float: left;
+    background-color: #fff;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 25px
+    
+}
+.input-container input:focus, .input-container input:active {
+    outline: none;
+}
+.input-container input {
+    width: 70%;
+    float: left;
+    border: none;
+    height: 100%;
+    padding: 0 25px;
+}
+
+.input-container button {
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 1.5em;
+    
+}
+.copy-right{
+    color: #f9f9ff;
+}
+.last-one{
+    background-color: #222222;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-list{
+    color: #fff;
+    margin: 0;
+}
+.footer-list li a{
+    margin: 0 20px;
+    display: inline-block;
+}
+.footer-icons a{
+    display: inline-block;
+    margin: 0 10px;
+    align-content: center;
+}
+.footer-icons{
+     margin: 30px 0;
+}
+
+@media only screen and (max-width: 1200px){
+    .first-part{
+        width: 80%;
+    }
+}
+
+
+
+
+
+
