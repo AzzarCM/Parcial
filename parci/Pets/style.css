@@ -204,7 +204,7 @@ footer .contenedor {
 
 @media (min-width:1024px) {
 	.info-pet {
-		width: auto;
+		width: 40%;
 	}
 }
 #menu-bar {

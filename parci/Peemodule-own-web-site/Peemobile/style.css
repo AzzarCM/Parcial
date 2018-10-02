@@ -9,6 +9,7 @@ body{
     background-color: rgba(128, 128, 128, 0.452);
 }
 .background-imagen{
+    background-image: url(img/smile.jpg);
     background-size: cover;
     height: 500px;
     right: 0;
